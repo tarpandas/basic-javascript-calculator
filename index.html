@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Tarpan's simple calculator</title>
+</head>
+<body>
+    <div id="container">
+        <div id="screen"></div>
+        <div id="button-area">
+            <table>
+                <tr>
+                    <td>
+                        <button id="buttons" onclick="display('+')">+</button>
+                    </td>
+                    <td>
+                        <button id="buttons" onclick="display('-')">-</button>
+                    </td>
+                    <td>
+                        <button id="buttons" onclick="display('CC')">CC</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button id="buttons" onclick="display('(')">(</button>
+                    </td>
+                    <td>
+                        <button id="buttons" onclick="display(')')">)</button>
+                    </td>
+                    <td>
+                        <button id="buttons" onclick="display('.')">.</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button id="buttons" onclick="display(7)">7</button>
+                    </td>
+                    <td>
+                        <button id="buttons" onclick="display(8)">8</button>
+                    </td>
+                    <td>
+                        <button id="buttons" onclick="display(9)">9</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button id="buttons" onclick="display(4)">4</button>
+                    </td>
+                    <td>
+                        <button id="buttons" onclick="display(5)">5</button>
+                    </td>
+                    <td>
+                        <button id="buttons" onclick="display(6)">6</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button id="buttons" onclick="display(1)">1</button>
+                    </td>
+                    <td>
+                        <button id="buttons" onclick="display(2)">2</button>
+                    </td>
+                    <td>
+                        <button id="buttons" onclick="display(3)">3</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button id="buttons" onclick="display('*')">*</button>
+                    </td>
+                    <td>
+                        <button id="buttons" onclick="display('/')">/</button>
+                    </td>
+                    <td>
+                        <button id="buttons" onclick="display('=')">=</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
